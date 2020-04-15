@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Speak word",
+    "description": "This extension will speak the word",
+    "icons": {
+        "19": "new-icon.png"
+    },
+    "version": "1.0",
+    "background": {
+        "scripts": ["eventPage.js"]
+
+    },
+    "permissions": ["tts", "contextMenus"]
+}
